@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import { Login } from '../pages/register.tsx';
+import { Register } from '../pages/register.tsx';
+import { Login } from '../pages/login.tsx';
+
 import './App.css'
 
 function App() {
@@ -8,6 +10,7 @@ function App() {
   return (
     <>
       <section>
+        <Register/>
         <Login/>
       </section>
     </>

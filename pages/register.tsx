@@ -1,11 +1,12 @@
-import React from 'react'
-import "./register.css"
+import React from 'react';
+import { AuthProvider,AuthContext } from '../auth/AuthProvider';
+import "./auth.css";
 
 async function validarAutenficacion() {
   await console.log("algo hace xd ");
 };
 
-export const Login = () => {
+export const Register = () => {
   return (
     <>
       <div id="auth">
@@ -24,4 +25,4 @@ export const Login = () => {
   )
 }
 
-export default Login
+export default Register
