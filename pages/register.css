@@ -1,0 +1,20 @@
+#auth {
+
+    margin-top: 2em;
+    margin-inline: 3em;
+    padding: 1em;
+    background-color: rgba(138, 138, 138, 0.821);
+    #auth-title{
+        text-align: center;
+        font-size: 2em;
+        margin: 0;
+        margin-block: 0.5em;
+    }
+    #auth-form{
+        display: inline-grid;
+        font-size: 1.2em;
+        input{
+            margin-block-end: 1em;
+        }
+    }
+}
